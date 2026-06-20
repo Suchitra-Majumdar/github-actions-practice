@@ -1,5 +1,5 @@
-#Github Actions Practice
+# Github Actions Practice
 
-##Cicepts
-###1.Workflow
+## Concepts
+### 1.Workflow
 To create a githubactions folder
