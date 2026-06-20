@@ -2,4 +2,4 @@
 
 ## Concepts
 ### 1.Workflow
-To create a githubactions folder
+To create a github actions folder workflow you need a folder called .github/workflows
