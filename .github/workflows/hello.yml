@@ -1,8 +1,23 @@
-#Workflow
-#should have Name
+# Workflow
+# should have Name
+name: Hello
 
-#Jobs
-#should be inside the workflows
+# on tlels what the workflows shud run
+on:
+  workflow_dispatch: 
+    
+# Jobs
+# should be inside the workflows
+# jobs tells what the workflow should be
+
+jobs:
+  say-hello:
+  # Create an ephermerel COntainer with Ubuntu runnung
+    runs-on: ubuntu-latest
+    # That ephemeral container will have steps to execute , hence name those steps and use run: run has the command
+    steps:
+      - name: Say hello to everyone
+        run: echo "Hello Dosto"
 
 #Steps
 #should be inside the jobs
